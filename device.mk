@@ -466,3 +466,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # miracast props
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1﻿
+
+# Bluetooth
+bluetooth.enable_timeout_ms=120000
